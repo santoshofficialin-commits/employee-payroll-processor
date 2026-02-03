@@ -32,6 +32,18 @@ employee-payroll-processor/
 
 
 
+
+
+## Design Decisions
+- Business logic is isolated in functions for maintainability
+- Constants are used instead of hard-coded values
+
+## Future Improvements
+- Add employee structures
+- Read salary data from files
+
+
+
 ---
 
 ## How to Build and Run
@@ -43,15 +55,6 @@ gcc src/payroll.c -o payroll
 ---
 
 ./payroll
-
-
-## Design Decisions
-- Business logic is isolated in functions for maintainability
-- Constants are used instead of hard-coded values
-
-## Future Improvements
-- Add employee structures
-- Read salary data from files
 
 
 
