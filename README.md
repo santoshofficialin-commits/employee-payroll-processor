@@ -23,3 +23,26 @@ Salary data is stored in arrays and processed using loops and dedicated function
 
 ## Project Structure
 
+employee-payroll-processor/
+├── src/
+│ └── payroll.c
+├── README.md
+├── .gitignore
+└── LICENSE
+
+
+
+---
+
+## How to Build and Run
+
+### Compile
+```bash
+gcc src/payroll.c -o payroll
+
+---
+
+./payroll
+
+
+
